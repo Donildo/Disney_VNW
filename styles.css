@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url(./asserts/cursor.png), default;
+  }
+  
+  header {
+    background-color: #1E1E1E;
+    font-family: 'Lily Script One', cursive;
+  }
+  
+  a{
+    color:#fff;
+    text-decoration: none;
+  }
+  
+  nav {
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    padding: 40px;
+  }
+
+  .banner{
+    background-image: url(./asserts/disney-banner\ 1.png);
+    height: 60vh;
+    background-position:center;
+    background-size:cover;
+  }
+
+
+
+  .films {
+    padding: 7vh 0 16vh 13vw;
+}
+
+.films figure {
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.films figure img {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 12vh;
+    filter: opacity(.9);
+    margin-left: 15px;
+}
+
+.films figure img:hover {
+    transform: scale(1.1);
+    filter: opacity(1);
+}
+
+footer {
+    padding: 40px;
+    height: 22vh;
+    background: #1e1e1e;
+}
+
+footer p {
+    text-align: center;
+    display: inline-block;
+    font-family: "Actor";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+footer span {
+    position: relative;
+    top: 27px;
+}
+
+footer span figure {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+footer figure img {
+    width: 7vh;
+    height: 3.5vw;
+}
+
+footer figure img:hover {
+    opacity: .5;
+    transition: .5s;
+}
